@@ -13,7 +13,7 @@ struct Screen
 
 void inittty();
 void cls();
-void putch(char);
+void putc(char);
 void print(char*);
 void ttynewline();
 
