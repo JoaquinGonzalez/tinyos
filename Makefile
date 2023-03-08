@@ -1,4 +1,4 @@
-SRC = kernel.c tty.c keyboard.c
+SRC = kernel.c tty.c io.c keyboard.c
 OBJ = $(SRC:.c=.o)
 ASMSRC = entry.asm idt.asm
 ASMOBJ = $(ASMSRC:.asm=.o)
